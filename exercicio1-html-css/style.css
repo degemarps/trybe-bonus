@@ -12,42 +12,61 @@ main {
   margin-left: 30px;
 }
 
+ul, h2 {
+  text-align: center;
+  list-style: none;
+}
+
 #basic {
   position: absolute;
   display: inline;
-  width: 200px;
+  width: 350px;
 }
 
 #pro {
   position: absolute;
   display: inline;
-  width: 200px;
-  left: 20%;
+  width: 350px;
+  left: 20.8%;
 }
 
 #premium {
   position: absolute;
   display: inline;
-  width: 200px;
+  width: 350px;
   left: 40%;
 }
 
 #title-basic {
   background-color: black;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #title-pro {
   background-color: #4CAF50;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #title-premium {
   background-color: black;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .sign-up {
   background-color: #4CAF50;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid silver;
 }
