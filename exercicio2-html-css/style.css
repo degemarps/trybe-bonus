@@ -1,0 +1,21 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#cabecalho {
+  position: absolute;
+
+}
+
+#dados-perfil {
+  position: absolute;
+  left: 400px;
+}
+
+#artigo {
+  position: relative;
+  top: 500px;
+  left: 400px;
+  width: 75%;
+}
