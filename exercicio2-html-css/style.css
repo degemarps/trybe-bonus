@@ -3,9 +3,44 @@
   padding: 0%;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+
 #cabecalho {
   position: absolute;
+  box-shadow: 0px 0px 10px #DDDDDD;
+  height: 100%;
+}
 
+#cabecalho h1 {
+  background-color: dimgray;
+  color: white;
+  width: 370px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+#cabecalho h1 img{
+  margin-left: 30px;
+}
+
+#cabecalho ul li {
+  padding: 30px;
+  font-size: 20px;
+}
+
+#cabecalho ul li img {
+  margin-right: 20px;
+  
 }
 
 #dados-perfil {
@@ -15,7 +50,7 @@
 
 #artigo {
   position: relative;
-  top: 500px;
+  top: 550px;
   left: 400px;
   width: 75%;
 }
