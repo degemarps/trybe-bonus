@@ -11,6 +11,16 @@ p {
   margin-bottom: 20px;
 }
 
+hr {
+  position: relative;
+  top: 550px;
+  width: 75%;
+  left: 400px;
+  color: darkgray;
+  background-color: darkgray;
+  border: none;
+  height: 1px;
+}
 
 #cabecalho {
   position: absolute;
@@ -44,13 +54,79 @@ p {
 }
 
 #dados-perfil {
+  display: inline;
   position: absolute;
   left: 400px;
 }
 
+#dados-perfil img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#dados-perfil h2 {
+  font-weight: 100;
+}
+
+#dados-perfil h2:nth-child(2) {
+  color: gray;
+
+}
+
+#dados-perfil h2:nth-child(4) {
+  display: inline;
+
+}
+
+#dados-perfil img:nth-child(3) {
+  display: inline;
+  margin: 0%;
+  margin-top: 20px;
+}
+
 #artigo {
   position: relative;
-  top: 550px;
+  top: 600px;
   left: 400px;
   width: 75%;
+}
+
+#perfil-botoes {
+  position: absolute;
+  font-size: 15px;
+  top: 52%;
+  left: 22%;
+}
+
+#perfil-botoes1 {
+  padding: 10px;
+  display: inline;
+  background-color: #EDEDED;
+}
+
+#perfil-botoes1 h3 {
+  font-weight: 100;
+  display: inline;
+}
+
+#perfil-botoes1 img {
+  display: inline;
+  margin-left: 15px;
+}
+
+#perfil-botoes2 {
+  margin-left: 10px;
+  padding: 10px;
+  display: inline;
+  background-color: #EDEDED;
+}
+
+#perfil-botoes2 h3{
+  font-weight: 100;
+  display: inline;
+}
+
+#perfil-botoes2 img {
+  display: inline;
+  margin-left: 15px;
 }
